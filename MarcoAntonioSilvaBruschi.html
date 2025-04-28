@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+
+    <style>
+
+        :root {
+            --background-color: #121212;
+            --text-color: #E0E0E0;
+            --titles-color: #E94560;
+            --subs-color: #A3A3A3;
+            --links-color: #F9A826;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background-color: var(--background-color);
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            border: 1px solid purple;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 1px purple;
+
+            gap: 10px;
+
+            color: var(--text-color);
+
+            background-color: #2A2A2A;
+
+        }
+
+        .title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            gap: 5px;
+
+            color: var(--titles-color);
+
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .links {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+
+            gap: 5px;
+        }
+
+        a {
+            color: var(--links-color);
+        }
+
+        strong {
+            color: var(--subs-color);
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="main">
+        <div class="title">
+            <h1>Meu Currículo</h1>
+            <h2>Marco Antônio Silva Bruschi</h1>
+        </div>
+        
+        <h3>Resumo Profisional</h3>
+        <p>Olá, me chamo Marco Antônio Silva Bruschi, sou estudante de engenharia de software na PUCPR. <br>Tenho interesse em desenvolvimento de sistemas e criação de jogos. <br>Gosto de aplicar meus conhecimentos técnicos em projetos práticos e criativos, buscando sempre evoluir como desenvolvedor.</p>
+
+        <h3>Habilidades Técnicas</h3>
+        <p>Linguagens: HTML, CSS, JavaScript, Python e Game Maker Language.</p>
+        <p>Ferramentas: Git.</p>
+        
+        <h3>Formação Acadêmica</h3>
+        <p>Pontifícia Universidade Católica do Paraná <strong>(2025 - 2028)</strong>.</p>
+
+        <h3>Projetos Pessoais</h3>
+        <div class="links">
+            <a href="https://github.com/MarcoBruschi/To-DoList">Lista de Tarefas (HTML/CSS/JS).</a>
+            <a href="https://github.com/MarcoBruschi/Dialog-System-GML">Sistema de dialogo em Game Maker Language.</a>
+            <a href="https://github.com/MarcoBruschi/Login-page">Página de login</a>
+            <a href="https://www.youtube.com/watch?v=gElLihKQyHw&t=790s&ab_channel=BisteconeLive">Um dos jogos que eu fiz para um streamer.</a>
+        </div>
+        
+        <h3>Contato</h3>
+        <div class="links">
+            <a href="https://github.com/MarcoBruschi">Github</a>
+            <a href="https://www.linkedin.com/in/marco-silva-bruschi-48470134a/">LinkedIn</a>
+        </div>
+
+        <h3>Idiomas</h3>
+        <p>Inglês: Fluente.</p>
+        <p>Português: Fluente.</p>
+    </div>
+    
+</body>
+</html>
